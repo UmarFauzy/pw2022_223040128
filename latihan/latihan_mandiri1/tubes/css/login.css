@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(1, 29, 1);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width:53.2rem ;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    width: 25rem;
+}
+
+form {
+    width: 15.6rem ;
+    margin: 3.8rem auto;
+}
+
+h1 {
+    margin:1.3rem ;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+hr {
+    border-top: 2px solid yellowgreen ;
+}
+
+.regis {
+    font-size: 1rem;
+}
+
+p{
+    text-align: center;
+    margin: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p span {
+    color: rgb(241, 241, 92);
+}
+
+
+p a {
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.right img {
+    width: 28.4rem;
+    height: 100%;
+    border-radius: 0.8rem;
+    display: flex;
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+input {
+    width: 100%;
+    margin: 0.2rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid yellowgreen;
+    display: flex;
+}
+
+button {
+    font-weight: 300;
+    font: 1rem;
+    color: #101010;
+    background: rgb(241, 241, 92);
+    width: 15.5rem;
+    margin-top: 1.2rem;
+    padding: 0.3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background: rgb(1, 29, 1);
+    color: #fff;
+
+}
+
+
+/* Media */
+@media (max-width : 1366px ){
+    html {
+        font-size: 75%;
+        flex: auto;
+    }
+}
+
+
+/* Tablet   */
+@media (max-width : 880px ){
+    html {
+        font-size: 62%;
+        flex: auto;
+    }
+}
+
+/*Handphone*/  
+@media (max-width : 350px ){
+    html {
+        font-size: 55%;
+        flex: auto;
+    }
+    /* .right img{
+        flex: auto;
+    }
+    input {
+        flex: auto;
+    }
+    button {
+        flex: auto;
+    } */
+}

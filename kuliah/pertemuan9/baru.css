@@ -1,0 +1,90 @@
+/* Header */
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+	position :fixed;
+	top: 0;
+	z-index: 10;
+  }
+  
+  .header-left h2 {
+	color: #f7f7f7;
+	display: block;
+	line-height: 65px;
+	padding: 0px 25px;
+  }
+  
+  .header-left {
+	float: left;
+  }
+  .header-right ul {
+	float: right;
+	
+	list-style: none;
+  }
+  .header-right ul li{
+	display: inline-block;
+	line-height: 65px;
+	
+  }
+  
+  .header-right ul li a {
+	color: white;
+	padding: 0px 25px;
+	display: block;
+	transition: all 0.5s;
+  }
+  
+  .header-right ul li a:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  label #opennav,
+  label #closenav{
+	float: right;
+	margin-right: 40px;
+	line-height: 65px;
+	cursor: pointer;
+	display: none;
+  }
+  
+  #nav{
+	display: none;
+  }
+  
+  @media (max-width: 992px) {
+	label #opennav {
+		display: block;
+	}
+  
+	.header-right ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		margin-right: 0;
+		right: -100%;
+		top: 65px;
+		background-color: rgba(34, 49, 52, 0.9);
+		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.header-right ul li{
+		display: block;
+		line-height: 25px;
+		margin: 25px 0px;
+	}
+  
+	#nav:checked ~ ul{
+		right: 0;
+	}
+	
+	#nav:checked ~ label #opennav{
+		display: none;
+	}
+	
+	#nav:checked ~ label #closenav{
+		display: block;
+	}
+  }

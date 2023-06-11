@@ -48,16 +48,21 @@ main .container .title span {
 }
 
 .nav-list {
+    position: fixed;
     display: flex;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     background-color: #101010;
     padding: 0 1.5rem;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nav-logo {
     margin: auto;
     padding: 0.5rem 1.8rem;
     font-size: 1.5rem;
+    list-style-type: none;
 }
 
 .nav-logo i {

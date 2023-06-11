@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 0;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34,49, 52, .9);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.header-left h2 {
+    color: aliceblue;
+    display: block;
+    line-height: 65px;
+    padding: 0 25px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right ul {
+    float: right;
+    list-style: none;
+}
+
+.header-right ul li {
+    display: inline-block;
+    line-height: 65px;
+}
+
+.header-right ul li a {
+    color: aliceblue;
+    padding: 0 25px;
+    display: block;
+    transition: all .5s;
+}
+
+.header-right ul li a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+label #opennav,
+label #closenav {
+    float: right;
+    margin-right: 40px;
+    line-height: 65px;
+    cursor: pointer;
+    display: none;
+}
+
+#nav {
+    display: none;
+}
+
+
+
+/* Index_Admin.php (Awal) */
+.content {
+    width: 1280px;
+    max-width: 80%;
+    min-height: 500px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+}
+
+.content-admin {
+    width: 1250px;
+    max-width: 100%;
+    min-height: 500px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+}
+
+.welcome {
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.username {
+    font-size: 1.85rem;
+    font-weight: 600;
+    color: #4abcff;
+    margin: 12px;
+}
+
+.update {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.tb {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px;
+    font-size: 0.95rem;
+    min-width: 480px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+table .date {
+    width: 23%;
+}
+
+table.time {
+    width: 23%;
+}
+
+table.loc {
+    width: 34%;
+}
+
+.tb thead th {
+    background-color: blue;
+    color: #fff;
+    text-align: left;
+    font-weight: 500;
+}
+
+.tb thead th,
+.tb tbody td {
+    padding: 8px 10px;
+}
+
+.tb tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.tb tbody tr:nth-of-type(even) {
+    background-color: aliceblue;
+}
+
+.tb tbody tr:last-child  {
+    border-bottom: 2px solid #4abcff; 
+}
+
+.btn-sec {
+    padding: 7px 10px;
+    min-width: 80px;
+    background-color: #4abcff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.content .box-input {
+    padding: 25px 0;
+    width: 90%;
+    margin: auto;
+}
+
+form .form-act {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-act input {
+    width: 40% ;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.button button {
+    text-align: right;
+    padding-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+/* Index_Admin.php (Akhir) */

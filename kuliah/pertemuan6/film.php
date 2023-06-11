@@ -123,7 +123,7 @@ $film  =
             <li>Genre : 
                     <?php foreach ($f ['Genre']as $f) {
                         echo $f ;
-                    }?>
+                    } ?>
         </ul>
     <?php } ?>
 </body>

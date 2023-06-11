@@ -70,6 +70,8 @@ body {
     padding-bottom: 0.2rem;
     border-bottom: 0.2rem solid var(--w-unpas2);
 }
+
+
 /* Navbar */
 
 /* Icons */
@@ -145,7 +147,18 @@ body {
     border-radius: 0.5rem;
     box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
-/*Hero Maim*/
+/*Hero Main*/
+
+/*Diskon*/
+.diskon h1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: center;
+}
+
+/*Diskon*/
+
 
 
 /* product 1 */
@@ -398,7 +411,6 @@ body {
     margin-bottom: -5rem;
     text-shadow: 3px 2px 4px rgb(255, 255, 255);
 }
-
 /* product  5 */
 
 /* Kontak Kami   */
@@ -451,39 +463,83 @@ font .credits a {
 }
 /* Kontak Kami   */
 
+/* Kontak Kami   */
+label #opennav,
+label #closenav{
+    float: right;
+    margin-right: 40px;
+    line-height: 65px;
+    cursor: pointer;
+    display: none;
+}
+
+#nav {
+    display: none;
+}
+/* Kontak Kami   */
 
 /* Media Penyesuaian */
 
 /* Laptop  */
-@media (max-width : 1366px ){
+/* @media (max-width : 1366px ){
     html {
         font-size: 75%;
     }
-}
+} */
 
 /* Tablet   */
-@media (max-width : 880px ){
+@media (max-width : 992px ){
     html {
-        font-size: 62%;
+        font-size: 75%;
     }
 
-    #menulayout {
-
+    .navbar-layout{
+        display: none;
     }
 
-    .navbar .navbar-page {
+    /* .navbar .navbar-page {
         position: absolute;
-        top: 100%;
+        top: 100%;  
         right: -100%;
         background-color: #e9ecef;
         width: 30rem;
         height: 100vh;
+    } */
+
+    .header-right .navbar-page {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+        right: -100%;
+        top: 65px;
+        background-color: #495057;
+        text-align: center;
+        transition: 0.3s;
     }
 
+    .navbar-page a {
+        display: inline-block;
+        margin-left: 200px;
+        margin-top: 10rem;
+        line-height: 60rem;
+    }
+
+    #nav:checked ~ .navbar-page{
+        right: 0;
+    }
+
+    #nav:checked ~ label #opennav{
+        display: none;
+    }
+    
+    #nav:checked ~ label #closenav{
+        display: block;
+    }
     .cta-container a {
         width: 10rem;
         margin-top: 1.5rem;
-        margin-left: 15.5rem;
+        margin-left: 12.5rem;
         padding: 10px 20px;
         border-radius: 30px;
         border: 1.5px solid transparent;
@@ -493,6 +549,12 @@ font .credits a {
         color: #fff;
         display: flex;
       }
+
+      label #opennav {
+        display: block;
+      }
+
+
 
 }
 
