@@ -26,7 +26,7 @@ $product = query("SELECT * FROM product");
                     <?php if($p["id_kategori"] == "15" ) : ?>
                 <div class="col animate">
                 <img src="../img/<?= $p["gambar"] ?>" />
-                    <h4><?= $p["judul_berita"] ?></h4>
+                    <h4 style="text-align: center;"><?= $p["judul_berita"] ?></h4>
                 </div>
                 <?php endif; ?>
                 <?php endforeach; ?>

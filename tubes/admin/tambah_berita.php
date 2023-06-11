@@ -13,7 +13,10 @@ if (isset($_POST["tambah"])) {
         document.location.href = 'index_berita.php';
         </script>";
     }else {
-        echo mysqli_error($conn);
+        echo"<script>
+        alert('berita gagal di tambahkan');
+        document.location.href = 'tambah_berita.php';
+        </script>";
     }
 } ?>
 <?php require('partials/header.php') ?>

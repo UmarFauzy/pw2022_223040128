@@ -147,6 +147,8 @@ body {
     border-radius: 0.5rem;
     box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
+
+h
 /*Hero Main*/
 
 /*Diskon*/
@@ -168,7 +170,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url('../img/t-shirts.jpg');
+    background-image: url('../img/bgparis.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -241,8 +243,9 @@ body {
 }
 
 .col h4 {
-    color:#fff;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0),1px 1px 1px rgb(0, 0, 0);
+    font-size: 1rem;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(128, 105, 105),1px 1px 1px rgb(255, 253, 253);
 }
 
 .col p {
@@ -285,7 +288,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url('../img/bghod1.jpg');
+    background-image: url('../img/bgnewyorkfsh.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -320,7 +323,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url('../img/bgjeans.jpg');
+    background-image: url('../img/bgmeetgala.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

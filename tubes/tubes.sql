@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 11, 2023 at 01:21 PM
+-- Generation Time: Jun 11, 2023 at 04:45 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -83,15 +83,32 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id_product`, `id_kategori`, `judul_berita`, `gambar`) VALUES
-(1, 1, 'Outfit Winter', 'bgacs.jpg'),
-(2, 3, 'outher', '64854bca80dcb.jpg'),
-(4, 1, 'Winter', '64858a416dc1c.jpg'),
-(5, 12, 'qwseddff', '6485a38fd322c.jpg'),
-(6, 12, 'dsfdsfds', '6485a41f2beaa.jpg'),
-(7, 13, 'dsds', '6485a4824480c.jpg'),
-(8, 14, 'sffdfds', '6485a4b65d544.jpg'),
-(9, 14, 'sdasdd', '6485a56f1d353.jpg'),
-(10, 15, 'dsdsds', '6485a75addac7.jpg');
+(12, 1, 'Oufit Casual Winter', '6485ef1b7c744.png'),
+(13, 1, 'Oufit  Winter', '6485ef397f184.png'),
+(14, 1, 'Oufit Casual Winter For Women', '6485ef4ee9f65.png'),
+(15, 1, 'Outfit Winter In Paris', '6485ef6fc663e.png'),
+(16, 1, 'NewZealand Oufit Winter', '6485f09841655.png'),
+(17, 12, 'Oufit Casual Summer', '6485f248b72bf.png'),
+(18, 12, 'Outfit Summer', '6485f254a50df.png'),
+(19, 12, 'Oufit Casual Summer In City', '6485f264a79e0.png'),
+(22, 12, 'Oufit Casual Summer Women', '6485f29b40b96.png'),
+(23, 3, 'Oufit Spring', '6485f36863352.png'),
+(24, 3, 'Outfit Casual Spring ', '6485f379b90a1.png'),
+(25, 3, 'Oufit City Spring For Busines Women', '6485f38d572b3.png'),
+(26, 3, 'Oufit Casual Spring For Women', '6485f39f74361.png'),
+(28, 13, 'Oufit Casual Women Auntum', '6485f53b6ce59.png'),
+(30, 13, 'Auntum Fashion Casual In City', '6485f56670453.png'),
+(32, 13, 'Auntum Fashion Women', '6485f5a980da2.png'),
+(35, 14, 'Only RainCoat Oufit', '6485f68b74bd4.png'),
+(38, 15, 'Rainy Oufit For Women', '6485f771207e8.png'),
+(40, 3, 'Oufit Cute Spring For Women', '6485f83518440.png'),
+(41, 12, 'Oufit Summer In Paris', '6485f88d5b9c6.png'),
+(42, 12, 'Oufit Summer For Boys', '6485f89ba0fcb.png'),
+(43, 13, 'Auntum Fashion Casual Women ', '6485f903ca9dc.png'),
+(44, 13, 'Auntum Fashion Cute In Women', '6485f920777b9.png'),
+(45, 15, 'Oufit Rainy In City ', '6485f972cab5c.png'),
+(46, 15, 'Oufit Casual Rainy', '6485f989c0ebe.png'),
+(47, 15, 'Oufit Casual Cute Women', '6485f9a083daa.png');
 
 --
 -- Indexes for dumped tables
@@ -136,7 +153,7 @@ ALTER TABLE `kategori`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `id_product` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_product` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
 -- Constraints for dumped tables
